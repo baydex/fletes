@@ -3,10 +3,9 @@
         display: block;
     }
 
-    .initialBackground, .initialImages, .description, header, .titleLine{
+    .initialBackground, .initialImages, .description, header, .titleLine, .contact > h3{
         display: block;
     }
-    
     .initial{
         position: relative;
         width: 100%;
@@ -86,9 +85,38 @@
     .initialImages{
         bottom: -70px;
     }
+    .contactContainer{
+        flex-direction: row;
+        width: 50%;
+    }
+    .contact{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .galery h1{
+        color: black;
+    }
+    .galery h1, .contact h3{
+        font-size: 1.3em;
+    }
+    .galeryBackground{
+        display: none;
+    }
+    .images{
+        display: flex;
+        height: 250px;
+    }
+    .imageBackground img{
+        height: 100%;
+        object-fit: cover;
+    }
+    .image, .imageBackground{
+        height: 100%;
+    }
 
-
-
+    
 
 
 

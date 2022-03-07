@@ -19,7 +19,7 @@ html, body{
 }
 
 
-.initialBackground, .initialImages, .description, .titleLine{
+.initialBackground, .initialImages, .description, .titleLine, .contact > h3{
     display: none;
 }
 
@@ -83,7 +83,6 @@ header{
 .galeryContainer{
     width: 100%;
     position: relative;
-    overflow: hidden;
 }
 .galeryBackground{
     /* position: absolute;
@@ -151,4 +150,12 @@ header{
     width: 50%;
     height: 100%;
     background-color: rgba(255, 255, 255, 0.5);
+}
+.galeryVelo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 0;
+    left: 0;
 }
