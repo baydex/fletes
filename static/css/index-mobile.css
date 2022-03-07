@@ -125,21 +125,22 @@ header{
     z-index: 2;
     background: linear-gradient(rgba(0, 0, 0, 0.4), transparent);
 }
-.imageTitle{
+/* .imageTitle{
     top: 30px;
     left: 15px;
     position: absolute;
     z-index: 3;
-}
+} */
 .imageLines{
-    position: absolute;
+    /* position: absolute;
     top: 60px;
-    left: 15px;
+    left: 15px; */
     width: 35%;
     height: 3px;
     border-radius: 2px;
     overflow: hidden;
     display: flex;
+    margin-top: 10px;
 }
 .line1{
     width: 50%;
@@ -161,4 +162,11 @@ header{
 }
 .image:hover{
     font-weight: 900;
+}
+.imageTitleContainer{
+    position: absolute;
+    z-index: 3;
+    top: 30px;
+    left: 15px;
+    width: 90%;
 }
